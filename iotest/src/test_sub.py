@@ -11,7 +11,7 @@ def linstener():
 def callback(data):
     print("I heard %s" %(data.data))
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     try:
         linstener()
     except rospy.ROSInterruptException:
